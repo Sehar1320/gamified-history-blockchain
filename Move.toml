@@ -1,0 +1,15 @@
+[package]
+name = "Gamified-history-learning-using-blockchain."
+version = "1.0.0"
+authors = []
+
+[addresses]
+GamifiedHistoryLearningUsingBlockchainDAO = "0xd266e12701c8b668596d4571de5ce039719cd2747661937b1a82aec213ff0d8" 
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
